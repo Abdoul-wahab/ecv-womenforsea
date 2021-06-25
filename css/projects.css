@@ -1,0 +1,429 @@
+.cards {
+    margin: 250px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* grid-gap: 50px; */
+    height: 587px;
+}
+
+.card {
+    display: grid;
+    width: 367px;
+    /* grid-template-rows: max-content 450px 1fr; */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #102335;
+}
+
+.card .card-image {
+    background-image: linear-gradient( transparent, black), url("../img/action/action2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 367px;
+    height: 286.6px;
+    border-radius:  25px 25px 0 0;
+}
+
+.card-image .card-title {
+    margin-top: 30%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.card-image .card-status {
+    margin-left: 78%;
+    margin-top: 10px;
+    /* padding: 7px; */
+    border: none;
+    width: 60px;
+    height: 25.48px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background: #FE6F61;
+    border-radius: 20px;
+}
+
+
+.card .content {
+    width: 301.76px;
+    margin: auto;
+    margin-top: -40px;
+}
+
+/* .content-text {
+    margin-top: -90px;
+} */
+
+
+
+.progressing {
+    margin-top: 50px;
+}
+
+
+progress {
+    -webkit-appearance: none;
+    width: 301.76px;
+    height: 25.48px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+  }
+
+progress::before{
+    position: absolute;
+    content: '900€';
+    margin-left: -90px;
+}
+
+::-webkit-progress-bar {
+    background-color: transparent;
+}
+
+progress[value]::-webkit-progress-value {
+    color: #FFFFFF;
+    border-radius: 20px;
+    background-color: #0C3294;
+}
+
+.card-project {
+    /* margin-top: 25px; */
+    padding: 12px 16px;
+    border: none;
+    margin-top: 20px;
+    width: 301.76px;
+    background: #FFFFFF;
+    border-radius: 8px; 
+}
+
+
+/*  Projects en cours */
+
+
+
+.project-en-cours {
+    height: 700px;
+    margin: 200px;
+    background: url("../img/action/action1.png"), url("../img/action/action1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px; 
+    
+}
+
+/* .project-en-cours .action-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 25%;
+} */
+
+.project-en-cours .action-button {
+    width: 183px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+
+.project-en-cours .status-button{
+    width: 55px;
+    height: 25.48px;
+    background: #54A8A4;
+    border-radius: 20px;
+}
+
+.project-en-cours .action-text{
+    overflow: hidden;
+    position: relative;
+    padding-right: 20px;
+    font-size: 100px;
+    font-family: wfs;
+    font-size: 100px;
+    color: #fff;
+    margin-top: 10%;
+    margin-block-end: 0;
+    word-spacing: 10px;
+}
+
+
+.project-content-text {
+    width: 451px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+
+/* .project-en-cours .action-text {
+    
+} */
+
+
+/* Sail and save */
+
+
+.sail-save-dons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sail-save-faire-dons {
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+}
+
+
+.top-path {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.top-text-h1 {
+    width: 789px;
+    font-family: wfs;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 101px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    /* line-height: 19px; */
+    color: #FFFFFF;
+}
+
+.top-text-p {
+    width: 697px;
+    /* height: 76px; */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+
+.sail-and-save {
+    width: 699px;
+    height: 527px;
+    border-radius: 15px;
+    background: url("../img/hero-img-1.jpg"), url("../img/hero-img-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sail-and-save .sail-and-save-play-button {
+    margin-top: 28%;
+}
+
+
+.sail-and-save .infos {
+    width: 667px;
+    height: 89px;
+    background: #102335;
+    border-radius: 20px;
+    margin-top: 23%;
+}
+
+.sail-and-save .infos .infos-item {
+    display: flex;
+    font-family: Lato;
+    font-style: normal;
+    color: #FFFFFF;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+
+.sail-and-save .infos p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.sail-and-save .infos h1 {
+    margin: auto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.faire-dons {
+    font-family: Lato;
+    font-style: normal;
+    color: #FFFFFF;
+    width: 437px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.faire-dons p {
+    width: 300px;
+    margin-top: 0;
+}
+
+.faire-dons-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.faire-dons-card-prix{
+    margin: auto;
+}
+
+
+label.faire-dons-radio-card-item {
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 385px;
+    height: 72px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faire-dons-item-text {
+    margin: auto 20px;
+}
+
+.faire-dons-radio-input {
+    margin: auto 20px;
+    -webkit-appearance:none;
+}
+
+
+.faire-dons-radio-input:after {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    position: relative;
+    background-color: transparent;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.faire-dons-radio-input:checked:after {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    position: relative;
+    background-color: #FFFFFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+hr.devider, .faire-dons p {
+    margin-bottom: 30px;
+}
+
+.faire-dons-checkbox {
+    display: flex;
+}
+
+.faire-dons-checkbox label{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    -webkit-appearance:none;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    background-color: transparent;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.faire-dons .faire-dons-button {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    width: 130px;
+    height: 40px;
+    margin: 50px 0 0 70%;
+}
+
+
+.cards-projets {
+    margin: 250px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* grid-gap: 50px; */
+    height: 587px;
+}
+
